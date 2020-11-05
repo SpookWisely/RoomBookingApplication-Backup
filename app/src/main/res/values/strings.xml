@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">RoomBookingApplication</string>
+    <string name="register">Register</string>
+    <string name="reset_details">Reset Details</string>
+    <string name="password">Password</string>
+    <string name="username">UserName</string>
+    <string name="login">Login</string>
+    <string name="don_t_have_an_account_with_us">Don\'t have an account with us?</string>
+    <string name="or">Or</string>
+    <string name="todo">TODO</string>
+    <string name="forgot_your_details">Forgot your details?</string>
+    <string name="enter_desired_username">Enter Desired UserName</string>
+    <string name="enter_password">EnterPassword</string>
+    <string name="re_enter_password">Re-Enter Password</string>
+    <string name="submit">Submit</string>
+    <string name="fullname">FullName</string>
+    <string name="email">Email</string>
+    <string name="enter_valid_email_adddress">Enter Valid Email Adddress</string>
+    <string name="enter_full_name">Enter Full Name</string>
+    <string name="confirm_password">Confirm Password</string>
+
+</resources>
