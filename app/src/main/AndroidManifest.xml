@@ -12,13 +12,45 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RoomBookingApplication"
         android:usesCleartextTraffic="true">
-        <activity android:name=".UserProfilePage" android:screenOrientation="portrait"> </activity>
-        <activity android:name=".BookingPage" />
-        <activity android:name=".RegisterPage" android:screenOrientation="portrait" />
-        <activity android:name=".MangementPage" />
-        <activity android:name=".AdminPage" />
-        <activity android:name=".CrashPage" />
-        <activity android:name=".LoginScreen">
+        <activity android:name=".SectionBooking"></activity>
+        <activity android:name=".SectionLeaderBoard" />
+        <activity android:name=".RecoverDetailsPage" />
+        <activity android:name=".SectionCreation">
+            android:screenOrientation ="portrait"
+        </activity>
+        <activity
+            android:name=".SectionManagement"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".UserBookingManagement"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".UserManagement"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".BookingManagement"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".UserProfilePage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BookingPage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RegisterPage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MangementPage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminPage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CrashPage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LoginScreen"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
